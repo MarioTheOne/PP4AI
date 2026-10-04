@@ -6,7 +6,8 @@ def main():
     vision_model = YOLO("yolo11n.pt")
     person_class_id = 0
     confidence_threshold = 0.35
-    camera = cv2.VideoCapture(0)
+    camera = cv2.VideoCapture(0) # Try to open the second webcam if exists
+    # camera = cv2.VideoCapture(1) # Try to open the second webcam if exists
 
     if not camera.isOpened():
         camera.release()
