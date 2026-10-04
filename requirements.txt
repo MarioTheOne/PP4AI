@@ -1,0 +1,15 @@
+# Run Jupyter notebooks in VS Code.
+ipykernel
+
+# Data analysis and visualisation.
+pandas
+matplotlib
+seaborn
+
+# Gemini API examples.
+google-genai
+
+# Machine-learning and computer-vision examples.
+scikit-learn
+ultralytics
+opencv-python
